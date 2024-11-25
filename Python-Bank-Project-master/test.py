@@ -10,4 +10,6 @@ balance=input('en1ter balance')
 qry=f"insert into accounts(name,email,phone,balance) values('{name}','{email}','{phone}',{balance})"
 curr.execute(qry)
 conn.commit()
-conn.close()
+conn.close() 
+
+# finally xampp connect to server 
